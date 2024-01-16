@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  express:
+    volumes:
+      - .:/usr/src/app  # Bind mount for live code updates
+
+  postgres:
+    ports:
+      - "5432:5432"  # Expose PostgreSQL to the host for local development
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
