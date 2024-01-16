@@ -1,9 +1,15 @@
-# Presentation
+# Express Prisma Postgres boilerplate
+
+<p>
+  <img src="https://github.com/loiclaudet/express-prisma-postgres-boilerplate/assets/8344874/2dbe3c5d-3f3a-4782-b672-2ef8641f71d4" width="100" style="max-width:100%; height:auto;">
+  <img src="https://github.com/loiclaudet/express-prisma-postgres-boilerplate/assets/8344874/33cf63f7-849e-43f2-a2cc-6974d5b36f7c" width="90" style="max-width:100%; height:auto;">
+  <img src="https://github.com/loiclaudet/express-prisma-postgres-boilerplate/assets/8344874/0e569c1f-902a-443c-b4b2-79ec0659036f" width="40" style="max-width:100%; height:auto;">
+</p>
 
 This is a template for a Node.js Express API with Prisma ORM and Postgres database.
+
 Configured to run in a Docker container.
 
-# Express API Template
 
 ## Launching the project locally
 
