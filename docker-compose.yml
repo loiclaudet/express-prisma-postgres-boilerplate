@@ -14,7 +14,7 @@ services:
       - express-postgres-network
 
   postgres:
-    image: postgres:13
+    image: postgres:15
     environment:
       POSTGRES_DB: "${DB_NAME}"
       POSTGRES_PASSWORD: "${DB_PASSWORD}"
