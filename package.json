@@ -21,7 +21,8 @@
     "prisma:migrate": "dotenv -e .env.development -- npx prisma migrate dev",
     "prisma:generate": "dotenv -e .env.development -- npx prisma generate",
     "prisma:watch": "dotenv -e .env.development -- npx prisma generate --watch",
-    "prisma:studio": "dotenv -e .env.development -- npx prisma studio"
+    "prisma:studio": "dotenv -e .env.development -- npx prisma studio",
+    "prettier": "prettier --write \"src/**/*.ts\""
   },
   "engines": {
     "node": "^20",
